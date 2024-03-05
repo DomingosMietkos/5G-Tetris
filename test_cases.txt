@@ -1,0 +1,59 @@
+Funkcja: Przemieszczanie się między Ekranami startowym(motywacyjnym) do ekranu głównego
+
+Scenariusz: Przejście z Ekranu Początkowego (Motywacyjnego) do ekranu głównego
+    Gdy użytkownik znajduje się na Ekranie Początkowym
+    To użytkownik naciska przycisk:    "Rozpocznij aktywnie dzień"
+    I użytkownik przechodzi na ekran główny wykonywanych działań i czynności
+    Odczyt możliwych aktywności w celu aktywacji działania
+    Uruchomienie wybranej aktywności w celu dokonania przemiany energi w działanie
+    Zbieranie elementów klocków Tetrisa dzieki przemianom zasobów w energie
+
+
+    Funkcja: Aktywacja elementów Tetrisa w menu Głównym w celu zbierania elementów do studni 2D
+
+
+Scenariusz: Zbieranie Baloników z Ekranu Aktywacji zdolności tworzenia elementów
+    Gdy użytkownik znajduje się na Ekranie Aktywności (aktywacyjny)
+    To użytkownik wykonuje aktywność, taką jak spacer lub siłownia
+    I użytkownik uwalnia z balonika  reprezentujący aktywność element 2D
+    I element tetrisa jest dodawany do jego kolekcji (aktywności)
+
+
+Scenariusz: Użycie zebranych elementów do Układania w Studni 2D "Aktywny Tetris"
+    Gdy użytkownik ma wystarczającą liczbę zebranych elementów 2D
+    To użytkownik składa klocek z aktywowanych elementów
+    I użytkownik przechodzi do Ekranu 2D do Układania klocków w aktywnej Studni
+    I użytkownik używa gotowego klocka z do układania zrównoważonego układu
+    I użytkownik zdobywa nagrodę za udane ułożenie każdej pełnej warstwy 2D
+ 
+Funkcja: Monitorowanie Postępów Aktywności na Ekranie startowym (motywacyjnych)
+
+Scenariusz: Przejście z Ekranu Studni 2D do Ekranu startowego (motywacyjnego)
+    Gdy użytkownik znajduje się na Ekranie Studni 2D
+    To użytkownik naciska przycisk "Powrót do motywacji"
+    I użytkownik przechodzi na Ekran Startowy (motywacyjny)
+
+
+    Funkcja: Monitorowanie Postępów Aktywności na Ekranie Startowym (motywacyjnym)
+
+    Scenariusz: Wyświetlenie Postępów Aktywności na Ekranie Startowym (motywacyjnym)
+        Gdy użytkownik znajduje się na Ekranie Startowym (motywacyjnym)
+        To użytkownik widzi sekcję "Moje Postępy Aktywacyjne"
+        I użytkownik widzi listę zebranych elementów z aktywności
+        I każdy element ma przypisaną odpowiednią aktywność
+        I pojawia się ogólna klasyfikacja stopnia aktywności
+
+
+
+       Funkcja: Monitorowanie Postępów Aktywności na Ekranie Motywacyjnym
+
+
+Scenariusz: Sprawdzenie Poprawności Wyświetlanych Postępów 
+    Gdy użytkownik znajduje się na Ekranie Motywacyjnym
+    To użytkownik porównuje listę zebranych elementów z rzeczywistymi aktywnościami 
+    I użytkownik widzi poprawne przypisanie aktywności do elementów 
+    Wprowadzenie oceny aktywności pod kontem poprawy motywacji
+    
+
+
+
